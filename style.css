@@ -1,0 +1,77 @@
+/* ===== Allgemein ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+
+  /* Hintergrundbild mit Farbverlauf drüber */
+  background-image: linear-gradient(to bottom right, rgba(173, 216, 230, 0.9), rgba(238, 130, 238, 0.9)), url("images/landshut.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== Container für beide Boxen ===== */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+/* ===== Linke Seite (Infos) ===== */
+
+.info {
+  width: 50%;
+}
+
+.info h1 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.info-item i {
+  font-size: 32px;
+  width: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.info-item p {
+  margin: 0 0 0 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.info-item span {
+  display: block;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
