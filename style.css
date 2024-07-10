@@ -75,3 +75,51 @@ a:hover {
   color: white;
   text-transform: uppercase;
 }
+
+
+/* ===== Rechte Seite (Kontakt) ===== */
+
+.kontakt {
+  width: 45%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 40px;
+  align-self: flex-start;
+}
+
+.kontakt h2 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.kontakt input,
+.kontakt textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.kontakt textarea {
+  resize: vertical;
+}
+
+.kontakt button {
+  background-image: linear-gradient(to bottom right, lightblue, violet);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.kontakt button:hover {
+  box-shadow: 0 10px 20px -6px rgba(0, 0, 0, 0.4);
+}
