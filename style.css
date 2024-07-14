@@ -129,3 +129,26 @@ a:hover {
   font-size: 14px;
   margin-top: 0;
 }
+
+
+/* ===== Handy ===== */
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .info,
+  .kontakt {
+    width: 100%;
+  }
+
+  .info h1 {
+    font-size: 32px;
+  }
+
+  .kontakt {
+    padding: 25px;
+  }
+}
